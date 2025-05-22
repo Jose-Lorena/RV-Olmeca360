@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   // Create VR Mode button
-  var vrButton = document.createElement('a');
+  var vrButton = document.getElementById('vrModeToggle');
   vrButton.href = 'javascript:void(0)';
   vrButton.id = 'vrModeToggle';
   vrButton.innerHTML = '<img class="icon off" src="img/vr.png"><img class="icon on" src="img/vr-exit.png">';
