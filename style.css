@@ -333,6 +333,36 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 body.single-scene #sceneList, body.single-scene #sceneListToggle {
   display: none;
 }
+#vrModeToggle {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 40px; /* Ajusta según el orden que quieras */
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgba(103,115,131,0.8);
+}
+
+#vrModeToggle .icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+#vrModeToggle .icon.on {
+  display: none;
+}
+
+#vrModeToggle.enabled .icon.on {
+  display: block;
+}
+
+#vrModeToggle.enabled .icon.off {
+  display: none;
+}
 
 /* Link hotspot */
 
